@@ -1,0 +1,5 @@
+1. The terminal to me is a type of interface where you can type commands for the computer to follow instead of using your mouse to click everything. 
+
+2. Git is a version control software that tracks the work that you change or edit. GitHub is a repository where your projects are stored. GitHub also lets you and others collaborate on work together.
+
+3. We use GitHub to collaborate on projects together. We also use GitHub to build portfolios of our work to show to the Public or you can choose to keep it Private.
