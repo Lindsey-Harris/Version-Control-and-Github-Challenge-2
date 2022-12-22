@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+    background-color: black;
+}
+
+.hero-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Resource Hero Image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+  }
+    
+
+
+h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+    font: bolder;
+    color: white;
+    padding-top: 10%;
+}
+
+.resources {
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.col {
+    color: white;
+    border: 1px solid yellowgreen;
+    height: 300px;
+}
+
+
+
