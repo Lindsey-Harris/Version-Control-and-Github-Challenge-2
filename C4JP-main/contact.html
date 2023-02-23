@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link href="contact.css" rel="stylesheet" type="text/css">
+
+  <!--This is an internal css for my background image-->
+  <style> 
+    body {
+      background-image: url('images/bgimage2.jpeg'); 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      background-size: cover;
+    }
+    </style> 
+</head>
+ 
+<body>
+<div class="logo"><a href="index.html">
+  <img src="Images/logo.png">
+</a></div>
+<header>
+  <nav>
+      <ul class="navtxt">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="MS.html">Mission Statement</a></li>
+          <li><a href="GI.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="au.html"> About Us</a></li>
+      </ul>
+  </nav>
+</header>
+
+   <!--This is my contact page heading-->
+<header class="contact-heading">
+     <h1>CONTACT US</h1>
+</header>  
+  
+   <!--This is my contact page form input-->
+   
+     <form id="contact-form">
+        <input name="Firstname" type="text" class="form-control" placeholder="First name" required>
+          <br>
+        <input name="Lastname" type="text" class="form-control" placeholder="Last name" required>
+          <br>
+        <input name="Email" type="text" class="form-control" placeholder="E-mail address" required>
+          <br>
+          <input type="checkbox" name="newsletter">
+          <label for="neweletter" class="newsletter">Please add me to your newsletter</label>
+          <br>
+          <br>
+        <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+          <br>
+        <textarea name="Message" class="form-control" placeholder="Message" rows="5" required>
+        </textarea>
+          <br>
+          <button type="submit" class="submit" aria-label="submit">SUBMIT</button>
+     </form>  
+   
+
+  <!--This is the footer that contains the website's social media links-->
+<footer>
+     
+      <a class="twitter-logo" href="https://twitter.com/worthrises"aria-label="twitter" target="_blank"><img src="images/twitter-icon.png" alt="twitter-logo" ></a>
+      <a class="fb-logo" href="https://www.facebook.com/worthrises" aria-label="Facebook" target="_blank"><img src="images/facebook-icon.png" alt="facebook logo"></a>
+      <a class="insta-logo" href="https://www.instagram.com/worthrises/" aria-label="Instagram" target="_blank"><img src="images/instagram-icon.png" alt="instagram logo"></a>
+  
+</footer>
+</body> 
+</html>

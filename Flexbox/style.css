@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*List style set to take away bullets*/
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;   /*The flex container becomes flexible by setting display property to flex*/
+  }
+  
+  .space-between { 
+    justify-content: space-between; 
+  }  
+  /*horizontally aligns the flex items*/
+
+  .space-between li {
+    background: lightgreen;
+  }
+  /*seperates class list under space-between to color the background lightgreen*/
+  
+  .space-around { 
+    justify-content: space-around; 
+  }
+
+  .space-around li {
+    background: hotpink; 
+  }
+  
+  .space-evenly { 
+    justify-content: space-evenly; 
+  }
+  .space-evenly li {
+    background: #bada55; 
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em; /*emphasizes font importance*/
+    text-align: center;
+  }
