@@ -1,34 +1,42 @@
-body { 
-    background-color:lightcoral;
-    background-image: url("/img/apla.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 80%;
-    background-color:#34495E;
-} 
-
-
-.para {
-    margin-left: 450px;
-    padding-bottom: 50px;
-} 
-
-
-.container {
-    padding-top: 100px;
-    margin-left: 375px;
-} 
-
-h1 {
-    color:black;
-    font-family: fantasy;
-    font-size: 40px;
+/*styling.css*/
+/*add font family, background image*/
+body {
+    background-color: #34495e;
+    color: rgb(239, 246, 249);
+    font-family: "Poppins", sans-serif;
+  }
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #DADE5B;
+  }
+  /*Jumbotron*/
+  .jumbotron h2 {
+    letter-spacing: 2.5px;
+    font-size: 50px;
     text-align: center;
-    margin-top: 50px;
-} 
+  }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    margin-right: 450px;
+  /*map*/
+  #googleMap {
+    float:left;
+    width: 30%;
+    height: 400px;
+    margin: 10px auto;
+    margin-left: 20px;
+  }
+  /*output box*/
+  #output {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  #mode {
+    color: black;
+  }
 
-}
+  .map2 {
+    width: 30%;
+    height: 400px;
+    float: right;
+    margin-right: 90px;
+  }
